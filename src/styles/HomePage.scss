@@ -1,0 +1,22 @@
+@import "./variables.scss";
+
+img {
+  position:fixed;
+  top: 20%;
+  right: 64px;
+}
+
+.main-text {
+  position:fixed;
+  top: 35%;
+  left: 80px;
+  font-weight: bold;
+  div:first-child {
+    color: rgb(243, 251, 239);
+    font-size: 72px;
+  }
+  div:last-child {
+    color: white;
+    font-size: 88px;
+  }
+}

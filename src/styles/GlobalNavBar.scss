@@ -1,0 +1,32 @@
+@import "./variables.scss";
+
+nav {
+  width: 100vw;
+  height: 50px;
+  background-color: $green1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  
+  a {
+    color: $green5;
+    font-size: 32px;
+    text-decoration: none;
+    margin-top: 8px;
+    margin-right: 32px;
+    font-family: flower;
+
+    &:hover{
+      color: $green3;
+      font-weight: bolder;
+    }
+  }
+
+  .active {
+    color: $green3;
+    font-weight: bolder;
+  }
+}
