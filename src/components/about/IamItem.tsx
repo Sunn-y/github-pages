@@ -18,7 +18,7 @@ const IamItem = ({ title, img, alt, desc }: IIamItem): JSX.Element => {
           className="i-am-item__img"
           alt={alt}
         />
-        <div className="i-am-item__title">{title}</div>
+        <h2 className="i-am-item__title">{title}</h2>
         <div className="i-am-item__desc">{desc}</div>
       </div>
     </>

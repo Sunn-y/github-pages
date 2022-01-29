@@ -13,8 +13,9 @@ body {
   overflow-x: hidden;
   width: 100vw;
   height: 100vh;
-  background-color: #014422;
-  font-family: "Alegreya", sans-serif;
+  background: linear-gradient(#000F08, #014422);
+  background-size: 400% 400%;
+  font-family: $main-font;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -30,5 +31,5 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "AlegreyaSC", sans-serif;
+  font-family: $head-font;
 }

@@ -1,9 +1,25 @@
-// color
+// colors
+$background       : #000F08;
+$on-background    : #000F08;
+$surface          : #000000;
+$on-surface       : #000F08;
+$primay           : #000000;
+$on-primay        : #000000;
+$secondary        : #000000;
+$on-secondary     : #000000;
+$accent           : #000000;
+
+
 $green1           : #014422;
 $green2           : #006727;
 $green3           : #248823;
 $green4           : #25a032;
 $green5           : #a4d279;
+
+
+// font
+$main-font        : "Alegreya", sans-serif;
+$head-font        : "AlegreyaSC", sans-serif;
 
 // font
 @font-face {
