@@ -1,0 +1,34 @@
+// variables
+@import "./variables.scss";
+// views
+@import "./pages/home.scss";
+@import "./pages/about.scss";
+@import "./pages/projects.scss";
+// components
+@import "./components/gnb.scss";
+
+@font-face {
+  font-family: "flower";
+  src: url("../assets/fonts/IndieFlower-Regular.ttf");
+};
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  width: 100vw;
+  height: 100vh;
+  background-color: #014422;
+  font-family: "flower", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+main {
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+code {
+  font-family: "flower", sans-serif;
+}

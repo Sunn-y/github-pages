@@ -1,0 +1,25 @@
+.project-wrapper {
+  width: calc(100vw - 48px);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: flex-start;
+}
+
+.project-item {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 500px;
+  height: 400px;
+  margin-top: 24px;
+  margin-right: 16px;
+  border-radius: 8px;
+  padding: 16px;
+  box-sizing: border-box;
+  background-color: rgba(white, 0.2);
+
+  &:hover {
+    background-color: rgba(white, 0.8);
+    cursor: pointer;
+  }
+}

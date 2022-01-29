@@ -1,0 +1,91 @@
+.main-text {
+  position: fixed;
+  top: 35%;
+  left: 80px;
+  font-weight: bold;
+  div:first-child {
+    color: rgb(243, 251, 239);
+    font-size: 72px;
+  }
+  div:last-child {
+    color: white;
+    font-size: 88px;
+  }
+}
+
+// nav {
+//   background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, purple);
+// }
+
+body {
+  // background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  // background: linear-gradient(#d5effc, #87d4f8, #42bdf7);
+  background: linear-gradient(#0e0614, #662e94, #87d4f8);
+  // background-size: 400% 400%;
+  // background-position: 0% 40%;
+  // animation: gradient 10s ease infinite;
+  height: 100vh;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 200%;
+    // background-position: 0% 50%;
+  }
+  50% {
+    background-position: 0% 0%;
+    // background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 200%;
+    // background-position: 0% 50%;
+  }
+}
+
+// like sun
+
+$light: orange;
+$dark: red;
+$border: rgb(252, 215, 169);
+
+.sun {
+  // animation:spin 4s linear infinite;
+  // margin: auto;
+  // margin-top: 140px;
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  box-shadow: inset 0 0 50px $border, inset 20px 0 60px $light,
+    inset -20px 0 60px $dark, inset 20px 0 300px $light,
+    inset -20px 0 300px $dark, 0 0 50px $border, -10px 0 60px $light,
+    10px 0 240px $dark;
+
+  position: fixed;
+  bottom: -240px;
+  left: calc(50% - 120px);
+
+  // animation: rising 10s infinite;
+
+  &:hover {
+    animation: spin 4s linear infinite;
+  }
+}
+
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rising {
+  0% {
+    bottom: -240px;
+  }
+  50% {
+    bottom: calc(50% + 120px);
+  }
+  100% {
+    bottom: -240px;
+  }
+}
