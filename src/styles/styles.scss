@@ -7,11 +7,6 @@
 // components
 @import "./components/gnb.scss";
 
-@font-face {
-  font-family: "flower";
-  src: url("../assets/fonts/IndieFlower-Regular.ttf");
-};
-
 body {
   margin: 0;
   padding: 0;
@@ -19,7 +14,7 @@ body {
   width: 100vw;
   height: 100vh;
   background-color: #014422;
-  font-family: "flower", sans-serif;
+  font-family: "Alegreya", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -29,6 +24,11 @@ main {
   box-sizing: border-box;
 }
 
-code {
-  font-family: "flower", sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "AlegreyaSC", sans-serif;
 }

@@ -9,10 +9,10 @@ interface NavItem {
 
 const GlobalNavBar = (): JSX.Element => {
   const navItem: NavItem[] = [
-    { id: 1, path: "/", name: "HOME" },
-    { id: 2, path: "/about", name: "ABOUT" },
-    { id: 3, path: "/projects", name: "PROJECTS" },
-    { id: 4, path: "/contact", name: "CONTACT" },
+    { id: 1, path: "/", name: "Home" },
+    { id: 2, path: "/about", name: "About" },
+    { id: 3, path: "/projects", name: "Projects" },
+    { id: 4, path: "/contact", name: "Contact" },
   ];
 
   const navLinks = navItem.map((item) => (
