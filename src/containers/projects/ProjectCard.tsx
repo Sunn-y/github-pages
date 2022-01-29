@@ -11,6 +11,7 @@ const ProjectCard = (): JSX.Element => {
       alt: "edgehub",
       category: "Dynamic Web Apps",
       tag: ["Vue.js", "Vuex"],
+      show: false
     },
   ];
 
@@ -22,10 +23,15 @@ const ProjectCard = (): JSX.Element => {
       alt={item.alt}
       category={item.category}
       tag={item.tag}
+      show={false}
     />
   ));
 
-  return <>{projectItemGroup}</>;
+  return (
+    <>
+      {projectItemGroup}
+    </>
+  );
 };
 
 export default ProjectCard;
